@@ -11,7 +11,7 @@ CHANGELOG.md
 TEST_REPORT.md
 ```
 
-開啟方式：分別雙擊 `before/index.html` 與 `after/index.html`，即可比較修復前後差異。
+開啟方式：分別雙擊 `[查看修復後版本](https://raven03115.github.io/rwd-repair-case/)` 與 `[查看修復前版本](https://raven03115.github.io/rwd-repair-case/before/)`，即可比較修復前後差異。
 
 ## 原始問題
 
