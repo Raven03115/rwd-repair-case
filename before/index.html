@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>小島選物｜故障版網站</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">小島選物</a>
+
+    <button
+      class="menu-button"
+      type="button"
+      aria-expanded="false"
+      aria-controls="primary-navigation"
+    >
+      <span class="sr-only">開啟導覽選單</span>
+      ☰
+    </button>
+
+    <nav id="primary-navigation" class="navigation" aria-label="主要導覽">
+      <a href="#products">精選商品</a>
+      <a href="#about">品牌故事</a>
+      <a href="#contact">詢價聯絡</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">LOCAL CRAFTS</p>
+        <h1>把島嶼的日常，帶進你的生活。</h1>
+        <p>
+          精選台灣小型工作室製作的器物、香氛與生活用品。
+          每件商品都附有創作者與材料說明。
+        </p>
+        <a class="primary-link" href="#products">查看本月精選</a>
+      </div>
+      <img src="assets/hero.svg" alt="桌面上的陶杯、香氛與布料">
+    </section>
+
+    <section id="products" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FEATURED</p>
+          <h2>本月精選</h2>
+        </div>
+        <p>三件適合送禮，也適合留給自己的日常物件。</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="assets/product-cup.svg" alt="霧白陶杯">
+          <div class="product-content">
+            <h3>霧白陶杯</h3>
+            <p>手拉胚製作，每只保留自然土紋與細微差異。</p>
+            <p class="price">NT$980</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/product-scent.svg" alt="島嶼木質香氛">
+          <div class="product-content">
+            <h3>島嶼木質香氛</h3>
+            <p>檜木、茶葉與海風調性，適合書桌與臥室。</p>
+            <p class="price">NT$1,280</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/product-cloth.svg" alt="藍染餐桌布">
+          <div class="product-content">
+            <h3>藍染餐桌布</h3>
+            <p>植物染布料，可作餐墊、桌巾或收納包巾。</p>
+            <p class="price">NT$760</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <p class="eyebrow">OUR STORY</p>
+        <h2>只收錄願意說明材料與製程的作品</h2>
+      </div>
+      <p>
+        我們與小型工作室合作，整理尺寸、材料、保養方式與製作時間，
+        讓使用者在購買前能清楚理解商品，而不是只看照片決定。
+      </p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">CONTACT</p>
+        <h2>詢問庫存或企業送禮</h2>
+        <p>填寫需求後，我們會在兩個工作日內以電子郵件回覆。</p>
+      </div>
+
+      <form class="inquiry-form">
+        <label>
+          姓名
+          <input type="text" name="name" autocomplete="name">
+        </label>
+
+        <label>
+          電子郵件
+          <input type="email" name="email" autocomplete="email">
+        </label>
+
+        <label>
+          詢問內容
+          <textarea name="message" rows="5"></textarea>
+        </label>
+
+        <button type="submit">送出詢問</button>
+        <p class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 小島選物｜教學用模擬網站</p>
+  </footer>
+</body>
+</html>
