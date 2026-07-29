@@ -5,8 +5,8 @@
 ## 專案結構
 
 ```text
-before/  修復前故障版
-after/   修復後審閱版
+before/  修復前故障
+after/   修復後
 CHANGELOG.md
 TEST_REPORT.md
 ```
