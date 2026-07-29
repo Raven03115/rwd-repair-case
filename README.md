@@ -5,13 +5,18 @@
 ## 專案結構
 
 ```text
-before/  修復前故障
-after/   修復後
+index.html        修復後版本入口
+styles.css
+script.js
+assets/
+before/           修復前故障版
 CHANGELOG.md
 TEST_REPORT.md
 ```
 
-開啟方式：分別雙擊 [查看修復後版本](https://raven03115.github.io/rwd-repair-case/) 與 [查看修復前版本](https://raven03115.github.io/rwd-repair-case/before/)，即可比較修復前後差異。
+## 線上展示
+- [查看修復後版本](https://raven03115.github.io/rwd-repair-case/)
+- [查看修復前版本](https://raven03115.github.io/rwd-repair-case/before/)
 
 ## 原始問題
 
